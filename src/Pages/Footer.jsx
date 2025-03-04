@@ -2,7 +2,7 @@ import React from "react";
 const Footer =()=>{
     return(
       <>
-        <div className="md:w-[100vw]  md:mt-1 md:h-[10vw] md:bg-gray-950
+        <div className="md:w-[100vw]   md:h-[10vw] md:bg-gray-950
         w-[100vw] h-[30vw] bg-gray-950
         ">
           <div>

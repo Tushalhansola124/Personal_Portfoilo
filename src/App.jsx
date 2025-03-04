@@ -7,15 +7,27 @@ import Project from './Pages/Project';
 import Contact from './Pages/Contact';
 import Footer from './Pages/Footer';
 import Menu from './Header/Header';
+import {motion,useScroll} from 'Motion/react';
+
 
 
 function App() {
-  
+
+  const{scrollYProgress}=useScroll();
   return(
     
     <>
     
           {/* <Header></Header> */}
+    
+          <motion.div
+  style={{scale:scrollYProgress}}
+
+  className='w-full   z-20  left-0  h-5 fixed origin-left bg-gray-500'
+  >
+
+  </motion.div>
+        
           <Menu></Menu>
           <Home></Home>
           <About></About>

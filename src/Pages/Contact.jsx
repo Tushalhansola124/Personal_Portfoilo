@@ -3,7 +3,7 @@ import { BsGithub } from "react-icons/bs";
 const Contact =()=>{
   return(
         <>
-        <div  id="contact" className="w-[100vw] mt-1  p-[10vw]  h-auto flex-wrap bg-gray-950">
+        <div  id="contact" className="w-[100vw]  p-[10vw]  h-auto flex-wrap bg-gray-950">
           <h1 className="text-white py-  font-mono text-4xl text-center">Contact Us</h1>
               <center>
               <div className="bg-white mt-10 p-8 rounded-lg shadow-lg max-w-lg w-full fade-in-up">

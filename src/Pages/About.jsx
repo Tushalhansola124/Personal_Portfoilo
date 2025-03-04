@@ -46,7 +46,7 @@ const About=()=>{
   
   return(
       <>
-        <div  id="about" className="md:w-[100vw] md:my-1 my-1  md:bg-gray-950 md:h-[90vw]
+        <div  id="about" className="md:w-[100vw]    md:bg-gray-950 md:h-[90vw]
                 w-[100vw] h-auto bg-gray-950 p-5 
         ">
               <h1 className=" md:text-4xl  md:font-bold 

@@ -7,7 +7,7 @@ import { delay } from "motion";
 import Footer from "./Footer";
 const Home=()=>{
   
-  const resume="http://localhost:5173/resume.pdf";
+  const resume="./public/personal_resume.pdf";
   const DownloadFile=(url)=>{
 
     const fileName=url.split("/").pop(); 
@@ -23,7 +23,7 @@ const Home=()=>{
     gsap.from(imgRef.current,{
       x:600,
       duration:0.9,
-      delay:3,
+      delay:1,
       opacity:0,
       scale:0,
     })
@@ -68,15 +68,28 @@ const Home=()=>{
               
       </div>
       
-      <div className="md:w-[50vw]" ref={imgRef}>
-              <img  className=" 
+      <div className="md:w-[50vw] " ref={imgRef}>
+            <a href="https://www.linkedin.com/in/tushal-hansola-92a909336/">  <img  className=" 
               md:scale-90
-            md:border-[2vw]
-            md:border-gray-600
+            md:border-[1vw]
+            md:border-b-stone-800
+              md:border-t-stone-800   
+              md:border-s-white
+                md:border-e-white
+            cursor-pointer
                   md:shodow-[29vw]
                   md:visible
-              md:mt-19 md:w-[35vw] md:h-[35vw] md:ms-[4vw] md:rounded-full
-              invisible " src=""></img>
+              md:mt-19 md:w-[40vw] md:h-[40vw] md:ms-[4vw] md:rounded-full
+              visible 
+                border-[1vw]
+                rounded-b-full
+                rounded-t-full
+            border-b-stone-800
+              border-t-stone-800   
+              border-s-amber-200
+                border-e-amber-200
+              " src="img2.png"></img></a>
+            
             
               
       </div>

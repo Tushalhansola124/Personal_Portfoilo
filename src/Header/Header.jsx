@@ -4,6 +4,7 @@ import gsap from 'gsap';
 import { useGSAP } from "@gsap/react";
 
 
+
 const Header=()=>{
 
 const headerRef=useRef();
@@ -26,13 +27,18 @@ const closeMenu = () => {
 };
 
 return (
-  <nav className="bg-gray-900 p-4">
+  <>
+
+
+
+
+    <nav className="bg-white p-4">
     <div className="max-w-7xl mx-auto flex justify-between items-center">
       {/* Logo */}
       <div className="text-white font-bold text-2xl">
         <img 
-        className="md:w-[4vw] md:h-[4vw]
-        w-[5vw] h-[5vw]
+        className="md:w-[5vw] md:rounded-3xl md:h-[5vw]
+        w-[12vw]  rounded-3xl h-[12vw]
         "
 
         src="Logo1.png"></img>
@@ -40,7 +46,7 @@ return (
 
       {/* Mobile Menu Button */}
       <button
-        className="lg:hidden text-white right-10 text-7xl"
+        className="lg:hidden text-black right-10 text-7xl"
         onClick={toggleMenu}
       >
         <svg
@@ -61,7 +67,7 @@ return (
 
       {/* Desktop Menu */}
       <div className="hidden lg:flex space-x-4">
-        <ul className="flex gap-[4vw] text-white cursor-pointer">
+        <ul className="flex gap-[4vw] text-black font-mono font-bold text-2xl cursor-pointer">
         <li>
         <ScrollLink to="home" spy={true} smooth={true} offset={10} duration={400}>Home</ScrollLink>
         </li>
@@ -94,7 +100,7 @@ return (
     {isOpen && (
       <div className="lg:hidden bg-gray-950 p-10 mt-4">
         <button
-          className="text-white absolute top-20 right-8"
+          className="text-white absolute top-25 right-10"
           onClick={closeMenu}
         >
           <svg
@@ -141,7 +147,9 @@ return (
       </div>
     )}
   </nav>
-);
+
+  </>
+  );
 
 
 
