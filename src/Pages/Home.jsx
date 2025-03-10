@@ -7,7 +7,7 @@ import { delay } from "motion";
 import Footer from "./Footer";
 const Home=()=>{
   
-  const resume="./public/personal_resume.pdf";
+  const resume="https://drive.google.com/file/d/1rpA78aJmeZTS7jr3KnhmUsTUgOsDww-z/view?usp=drive_link";
   const DownloadFile=(url)=>{
 
     const fileName=url.split("/").pop(); 
