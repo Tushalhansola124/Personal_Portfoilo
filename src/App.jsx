@@ -23,7 +23,7 @@ function App() {
           <motion.div
   style={{scale:scrollYProgress}}
 
-  className='w-full   z-20  left-0  h-5 fixed origin-left bg-gray-500'
+  className='w-full   z-20  left-0  m-0 h-5 fixed origin-left bg-gray-500'
   >
 
   </motion.div>
