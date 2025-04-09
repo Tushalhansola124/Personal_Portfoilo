@@ -7,12 +7,12 @@ const Footer =()=>{
         ">
           <div>
             <h3 className="md:text-white md:text-2xl md:py-7 md:text-center md:font-mono
-            text-1xl text-center text-white pt-8
+            text-1xl text-center text-white pt-10
             ">
             Copyright © 2025. All Rights Reserved.
             </h3>
               <h5 className="md:text-white md:text-center md:text-2xl
-                 text-center text-white pt-2
+                 text-center text-white pt-0
               ">Designed, Developed By : Mr. Tushal Hansola</h5>
           </div>
         </div>

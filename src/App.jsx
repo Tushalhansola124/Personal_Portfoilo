@@ -13,20 +13,20 @@ import {motion,useScroll} from 'Motion/react';
 
 function App() {
 
-  const{scrollYProgress}=useScroll();
+  // const{scrollYProgress}=useScroll();
   return(
     
     <>
     
           {/* <Header></Header> */}
-    
+{/*     
           <motion.div
   style={{scale:scrollYProgress}}
 
   className='w-full   z-20  left-0  m-0 h-5 fixed origin-left bg-gray-500'
   >
 
-  </motion.div>
+  </motion.div> */}
         
           <Menu></Menu>
           <Home></Home>

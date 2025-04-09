@@ -44,12 +44,12 @@ const Project=()=>{
     ];
   return(
 <>
-    <div id="project"  className="bg-gray-950  w-[100vw] h-[140vw] md:h-[115vw]">
+    <div id="project"  className="bg-gray-950  w-[100vw] h-[160vw] md:h-[120vw]">
         <h1 className="text-white text-4xl   font-bold font-mono text-center py-7">MyProject</h1>
         {Project2.map((item,index)=>{
           return(
             <>
-                <div key={index} className=" md:mt-10 mt-4 box1 md:mb-6 md:w-[40vw] w-[50vw] h-[30vw] md:h-[32vw] ml-[30vw]  border-neutral-700 md:border-7 border-2 rounded md:rounded-2xl bg-white">
+                <div key={index} className=" md:mt-10 mt-10 box1 md:mb-6 md:w-[40vw] w-[50vw] h-[30vw] md:h-[32vw] ml-[30vw]  border-neutral-700 md:border-7 border-2 rounded md:rounded-2xl bg-white">
               <a href={item.link}><img className="md:w-[40vw]   rounded md:h-[27vw] w-[50vw] h-[23.5vw] " src={item.img}></img></a>
               <h3 className="md:text-2xl md:m-2 rounded text-1xl bg-gray-800 text-white md:text-white font-mono font-bold text-center">{item.text}</h3>
           </div>
